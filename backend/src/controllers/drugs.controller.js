@@ -1,9 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
 const messages = require('../constants/messages');
-
-
 const  Drugs = require('../models/drugs');
 
 exports.find = async(req,res)=>{

@@ -1,6 +1,4 @@
-const drugsData = require('./drugs');
-
-const mongoose = require('mongoose');
+const drugsData = require('./seedData/drugs');
 const  Drugs =require('../../models/drugs');
 
 module.exports = async function () {

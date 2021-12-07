@@ -5,7 +5,7 @@ const messages = require('../src/constants/messages');
 
 const testdata = require('./data/drugs.data');
 
-const drugsController = require('../src/controllers/drugsController');
+const drugsController = require('../src/controllers/drugs.controller');
 const Drugs = require('../src/models/drugs');
 
 describe('\n Drugs.controller.test \n', function(){
