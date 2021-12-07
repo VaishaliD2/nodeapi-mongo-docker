@@ -1,6 +1,6 @@
-# Temedica Implementation Notes
+# Implementation Notes
 
-Backend API
+Backend  Node js API
 
 1. Seed data in Mongo db
 2. Starts APi on port 5000
