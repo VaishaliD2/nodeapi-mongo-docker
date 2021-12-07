@@ -11,7 +11,7 @@ API endpoint for search by disease or drugname -> http://localhost:5000/drugs/{s
 <b>Notes to start the api</b>
 
 
-It uses mongo image from docker hub . To run on local mongo ,  add MongoConnectionUri as "mongodb://localhost:27017/temedica" in .env file 
+It uses mongo image from docker hub . To run using local mongo ,  add MongoConnectionUri as "mongodb://localhost:27017/temedica" in .env file 
 and to run using docker compose add MongoConnectionUri as "mongodb://mongo:27017/temedica" in .env file
 
 
