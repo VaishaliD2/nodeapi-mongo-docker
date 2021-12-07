@@ -1,0 +1,16 @@
+version: "3.4"
+services:
+  mongo: 
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+  temedicaapi:
+    build:
+      context: ./backend
+      target: prod
+    environment:
+      - MongoConnectionUri=${MongoConnectionUri}
+    ports:
+      - "5000:80"
+    depends_on:
+      - mongo

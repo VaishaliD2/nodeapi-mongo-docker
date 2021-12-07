@@ -1,0 +1,2 @@
+# exclude node_modules from the build - this speeds up development builds considerably
+node_modules
