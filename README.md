@@ -8,7 +8,7 @@ Backend API
 API endpoint for search by disease or drugname -> http:localhost:5000/drugs/{searchTerm}
 
 
-<b>Notes to start the api <b>
+<b>Notes to start the api</b>
 
 
 It uses mongo image from docker hub . To run on local mongo ,  add MongoConnectionUri as "mongodb://localhost:27017/temedica" in .env file 
