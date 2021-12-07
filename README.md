@@ -5,7 +5,7 @@ Backend API
 1. Seed data in Mongo db
 2. Starts APi on port 5000
 
-API endpoint for search by disease or drugname -> http:localhost:5000/drugs/{searchTerm}
+API endpoint for search by disease or drugname -> http://localhost:5000/drugs/{searchTerm}
 
 
 <b>Notes to start the api</b>
