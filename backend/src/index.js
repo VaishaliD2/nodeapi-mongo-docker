@@ -43,6 +43,6 @@ app.use(function(req, res) {
 
 app.listen(80);
 
-console.log(' Temedica API server started on: ' + 80);
+console.log(' API server started on: ' + 80);
 
 module.exports = app;

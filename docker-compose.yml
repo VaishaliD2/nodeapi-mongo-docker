@@ -4,7 +4,7 @@ services:
     image: mongo:latest
     ports:
       - "27017:27017"
-  temedicaapi:
+  api:
     build:
       context: ./backend
       target: prod
